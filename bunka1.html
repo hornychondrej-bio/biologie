@@ -121,11 +121,7 @@
 				scrollActivationWidth: 0,
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-				dependencies: [
-        // other dependencies
-        { src: 'plugin/quiz/js/quiz.js', async: true, callback: function() { prepareQuizzes({}); } }
-        // other dependencies
-    ]
+				dependencies: [ { src: 'plugin/quiz/js/quiz.js', async: true, callback: function() { prepareQuizzes({}); } } ]
 			});
 		</script>
 
